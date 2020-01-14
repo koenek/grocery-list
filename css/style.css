@@ -1,0 +1,72 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+    color: #5D2E2E;
+    background-color: #FFF4F4;
+    background-image: url('https://images.unsplash.com/photo-1520451214409-ba3eed10dc52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 15px;
+    text-align: center;
+    /* transform: skewY(-6deg); */
+}
+
+#container {
+    width: 400px;
+	margin: 150px auto;
+    /* border-radius: 15px; */
+    border: solid grey 1px;
+    background-color: #E7CECE;
+}
+
+form, input {
+	font-size: 15px;
+	width: 100%;
+	padding: 5px 13px 5px 20px;
+	box-sizing: border-box;
+    background: #FFF4F4;
+    outline: 0;
+}
+
+form {
+    background-color: #E7CECE;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: 0;
+}
+
+.fas {
+    float: right;
+    color: #C09D9D;
+}
+
+.fas:hover {
+    float: right;
+    color: #5D2E2E;
+}
+
+li {
+	font-size: 15px;
+    padding: 5px 13px 5px 20px;
+}
+
+
+li:nth-child(2n){
+    background: #FFF4F4;
+}
+
+
+/*
+Colors:
+#FFF4F4
+#E7CECE
+#C09D9D
+#A07575
+#5D2E2E
+*/
