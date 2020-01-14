@@ -1,2 +1,2 @@
-# grocery-list
+# Grocery List
 JavaScript Grocery List
